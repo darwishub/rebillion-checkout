@@ -21,7 +21,7 @@
 
                     <q-btn flat class="rounded-sm bg-white text-q-dark price__quantity-btn" size="12px" icon="icon-minus"
                         @click="onSubProductQty" />
-                    <div class="mx-30 mx-xs-20 fs-20 fw-600 text-q-dark">{{ getProductDataOnCart(slide) != undefined ?
+                    <div class="mx-sm-30 mx-xs-15 fs-20 fw-600 text-q-dark">{{ getProductDataOnCart(slide) != undefined ?
                         getProductDataOnCart(slide).qty : 0 }}</div>
                     <q-btn flat class="rounded-sm bg-white text-q-dark price__quantity-btn" size="12px" icon="icon-plus"
                         @click="onAddProductQty" />
@@ -41,7 +41,7 @@
 
         <div class="upsell__info mt-40 mb-sm-70 mb-xs-40 row justify-start items-start">
             <GuaranteedInfo class="upsell__info-left me-sm-20 h-100" />
-            <div class="base-card row justify-xs-start justify-sm-start justify-md-center items-center upsell__info-right rounded-sm p-35 h-100" v-if="$q.screen.width > 600">
+            <div class="base-card row justify-xs-start justify-sm-start justify-md-center items-center upsell__info-right rounded-sm p-35 h-100" v-if="$q.screen.width > 718">
                 <img src="/support 1.svg" class="me-xs-25 me-sm-25 me-md-30" />
                 <div class="row column">
                     <p class="q-pa-none q-ma-none fs-20 fw-600 text-q-dark">24/7</p>

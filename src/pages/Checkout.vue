@@ -25,7 +25,7 @@
                         v-if="$q.screen.width >= 600"
                         class="mb-15"   
                     />
-                    <div class="base-card rounded-md row column justify-start bg-white p-30 p-xs-15" v-if="showClubInfo && $q.screen.width >= 1024">
+                    <div class="base-card rounded-md row column justify-start bg-white p-30 p-xs-15 py-xs-20" v-if="showClubInfo && $q.screen.width >= 1024">
                         <p class="fs-18 fw-600 mb-10 text-q-dark">The ultimate jewellery club</p>
                         <p class="fs-14 fw-400 text-q-gray">Ornare rhoncus nunc ut felis. Faucibus dolor at ultrices
                             tincidunt. Pulvinar sed justo et viverra pellentesque.</p>

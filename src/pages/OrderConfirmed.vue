@@ -12,7 +12,7 @@
         <p class="fs-16 fs-xs-14 fw-600 q-pa-none q-mb-none">${{ cartTotal() }}</p>
     </div>
 
-    <div class="bg-gray-4-o-3 rounded-md mb-30 p-30" v-if="cartMobileToggleStatus && $q.screen.width <= 1023">
+    <div class="bg-gray-4-o-3 rounded-md mb-30 p-30 px-xs-15 py-xs-20" v-if="cartMobileToggleStatus && $q.screen.width <= 1023">
         <CartProductList class="mb-40" :products="cart" :sub-total="cartSubTotal()" :shipping-price="shippingPrice"
             :total="cartTotal()" />
         <div class="base-card rounded-md row column justify-start p-30 p-xs-15">
@@ -20,7 +20,7 @@
             <p class="fs-14 fw-400 text-q-gray">Ornare rhoncus nunc ut felis. Faucibus dolor at ultrices
                 tincidunt. Pulvinar sed justo et viverra pellentesque.</p>
             <div class="row justify-start items-center mb-5" v-for="benefit in benefitList">
-                <q-icon size="20px" name="icon-check text-q-gray" class="me-10 me-xs-5" />
+                <q-icon size="16px" name="icon-check text-q-gray" class="me-10 me-xs-5" />
                 <p class="fs-14 fw-400 q-pa-none q-ma-none text-q-gray">
                     {{ benefit }}
                 </p>
